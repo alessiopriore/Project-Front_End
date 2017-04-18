@@ -1,0 +1,17 @@
+{
+  "name": "Architect",
+  "homepage": "index.html",
+  "authors": [
+    "Gruppo Terra"
+  ],
+  "description": "Uiip Archtitects Group",
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
