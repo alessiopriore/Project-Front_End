@@ -9,8 +9,3 @@ function initMap() {
     map: map
   });
 }
-
-$(function(){
-  $("#header").load("header.html");
-  $("#footer").load("footer.html");
-});

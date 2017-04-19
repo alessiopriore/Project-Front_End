@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html id="loadingMask" style="display:none;">
   <head>
     <link rel="shortcut icon" href="image/logo.png" type="image/png">
     <title>Uiip Architect Group</title>
@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
   </head>
   <body>
-
+  <div id="fade"></div>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -45,7 +45,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8">
         <div class="well">
-          <h3 id="progetti">Skywalker</h3>
+          <h3>Skywalker</h3>
          <p>In fase di costruzione...terminerà nel 2019</p>
         </div>
       </div>
@@ -57,7 +57,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8" >
         <div class="well">
-          <h3 id="progetti">Bosco Verticale</h3>
+          <h3>Bosco Verticale</h3>
          <p>Il Bosco Verticale è un complesso di due palazzi residenziali a torre progettato da Uiip Architect Group situato
            nel Centro Direzionale di Milano, ai margini del quartiere Isola. Peculiarità di queste costruzioni,
            ambedue inaugurate nel 2014, è la presenza di più di duemila essenze arboree, tra arbusti e alberi ad alto fusto,
@@ -77,7 +77,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8">
         <div class="well">
-          <h3 id="progetti">Burj Khalifa</h3>
+          <h3>Burj Khalifa</h3>
          <p>La Burj Khalifa (in arabo: برج خليفة‎, Burǧ Ḫalīfa, "Torre Khalifa", che potrebbe significare "Torre dell'emiro Khalifa"
            quanto "Torre del Califfo"), precedentemente conosciuto con il nome di Burj Dubai, è un grattacielo di Dubai,
            negli Emirati Arabi Uniti (UAE). È la più alta struttura mai realizzata dall'uomo, 829,8 metri, con un significativo margine
@@ -99,7 +99,7 @@
       </div>
       <div class="col-xs-12 col-sm-8 col-md-8">
         <div class="well">
-          <h3 id="progetti">Burj Al Arab</h3>
+          <h3>Burj Al Arab</h3>
          <p>Burj al-ʿArab (in arabo: ﺏﺮﺝ ﺍﻟﻌﺮﺏ‎, ossia "Torre degli Arabi") è uno degli alberghi più lussuosi del mondo,
            con 5 stelle (attualmente da solo se ne è riconosciute 7). Situato sulla Jumeirah Beach, a 15 km a sud del centro di Dubai,
            su un'isola artificiale collegata alla terraferma da un ponte di 280 m, è caratterizzato da una particolare forma "a vela",
@@ -132,5 +132,6 @@
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0LusLT_gOUY_XjLLqIMzaJwrt4VPOZX0&callback=initMap"></script>
+<script src="js/fade.js"></script>
 </body>
 </html>
