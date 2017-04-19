@@ -1,6 +1,6 @@
 #ignore file #
 
 **/node_modules
-**/bowe_components
+**/bower_components
 test
 tests
