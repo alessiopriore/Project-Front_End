@@ -5,10 +5,12 @@
     <title>Uiip Architect Group</title>
     <meta charset="utf-8">
     <link rel="stylesheet" type="text/css" href="../bower_components/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" type="text/css" href="style/stile.css">
     <link rel="stylesheet" type="text/css" href="../bower_components/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="style/stile.css">
   </head>
   <body>
+  <div id="header"></div>
+  <header>
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
@@ -28,57 +30,31 @@
       </div>
     </div>
   </nav>
-
-
   <div class="jumbotron">
     <div class="container text-center">
       <img id="logo" src="image/logo.png"/>
     </div>
   </div>
+  </header>
 
   <div class="container-fluid bg-3 text-center">
-    <h3>Some of my Work</h3><br>
     <div class="row">
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <p>I Grandi Complessi</p>
+        <img src="image/image1.jpg" class="img-responsive imagindex" style="width:100%" alt="Image">
       </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <p>Il Restauro</p>
+        <img src="image/image2.jpg" class="img-responsive imagindex" style="width:100%" alt="Image">
       </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
+      <div class="col-xs-12 col-sm-4 col-md-4">
+        <p>Gli Interni</p>
+        <img src="image/image3.jpg" class="img-responsive imagindex" style="width:100%" alt="Image">
       </div>
     </div>
   </div><br>
 
-  <div class="container-fluid bg-3 text-center">
-    <div class="row">
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-      <div class="col-sm-3">
-        <p>Some text..</p>
-        <img src="https://placehold.it/150x80?text=IMAGE" class="img-responsive" style="width:100%" alt="Image">
-      </div>
-    </div>
-  </div><br><br>
-
+  <div id="footer"></div>
   <footer class="container-fluid text-center">
     <div class="row">
       <div class="col-xs-6 col-sm-6 col-md-6">
@@ -102,5 +78,11 @@
 <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="js/script.js"></script>
 <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0LusLT_gOUY_XjLLqIMzaJwrt4VPOZX0&callback=initMap"></script>
+<!--<script>
+  $(function(){
+    $("#header").load("header.html");
+    $("#footer").load("footer.html");
+  });
+</script>-->
 </body>
 </html>
