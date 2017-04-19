@@ -4,20 +4,20 @@ module.exports = function(grunt)
         less: {
             development: {
                 files: {
-                    'stile.css': 'stile.less'
+                    'src/style/stile.css': 'src/style/stile.less'
                 }
             }
         },
         jshint: {
-          all: ['Gruntfile.js', '**/*.js']
+          all: ['Gruntfile.js', 'src/js/*.js']
         },
         watch: {
             less: {
-                files: ['**/*.less'],
+                files: ['src/style/*.less'],
                 tasks: ['less']
             },
             jshint: {
-                files: ['**/*.js'],
+                files: ['src/js/*.js'],
                 tasks: ['jshint']
             },
         },
